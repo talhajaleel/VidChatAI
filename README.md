@@ -41,20 +41,6 @@ streamlit run app.py
 http://localhost:8501
 ```
 
-## Configuration
-
-VIDCHATAI requires API keys for ChatGPT. Make sure you have obtained the necessary key and credentials before running the application.
-
-To configure the API key, follow these steps:
-
-1. Open the `.env` file and replace the placeholder values with your actual API keys (recommended)
-
-```
-CHATGPT_API_KEY=your_chatgpt_api_key
-```
-
-Make sure to save the changes to the `.env` file.
-
 ## Limitations
 
 - VIDCHATAI depends on third-party APIs for speech recognition and language processing. Any limitations or restrictions imposed by these APIs will affect the functionality of the application.
@@ -77,8 +63,6 @@ Contributions to VIDCHATAI are welcome! If you want to contribute to the project
 ## Disclaimer
 
 VIDCHATAI is an open-source project developed by contributors. It is provided as-is, without any warranty or guarantee of its performance or suitability for any particular purpose. The developers of VIDCHATAI are not responsible for any misuse or damages arising from the use of this application.
-
-Please use VIDCHATAI responsibly and
 
  comply with the terms of service of the APIs used by the application.
 
