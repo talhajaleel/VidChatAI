@@ -8,14 +8,11 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain.vectorstores import FAISS
 from langchain.chains.question_answering import load_qa_chain
 from langchain.llms import OpenAI
-from streamlit_chat import message
-
-# os.environ['open_api_key'] = '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'
 
 
 def gpt_interaction(video_subs, user_query):
 
-    os.environ["OPENAI_API_KEY"] = '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'
+    os.environ["OPENAI_API_KEY"] = 'your-open-api-key'
 
     # read data from the file and put them into a variable called raw_text
     raw_text = video_subs
