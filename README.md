@@ -40,32 +40,3 @@ streamlit run app.py
 ```
 http://localhost:8501
 ```
-
-## Limitations
-
-- VIDCHATAI depends on third-party APIs for speech recognition and language processing. Any limitations or restrictions imposed by these APIs will affect the functionality of the application.
-
-- The accuracy of caption generation and query responses depends on the performance of LangChain and ChatGPT models. In some cases, the generated captions may not be perfect, and the query system may not comprehend certain complex queries accurately.
-
-- VIDCHATAI's current version only supports YouTube video links for caption generation. Support for additional video platforms may be added in future updates.
-
-## Contributions
-
-Contributions to VIDCHATAI are welcome! If you want to contribute to the project, please follow these guidelines:
-
-- Fork the repository and create a new branch for your contribution.
-
-- Make your changes
-
-- Submit a pull request describing your changes and the problem or feature they address.
-
-
-## Disclaimer
-
-VIDCHATAI is an open-source project developed by contributors. It is provided as-is, without any warranty or guarantee of its performance or suitability for any particular purpose. The developers of VIDCHATAI are not responsible for any misuse or damages arising from the use of this application.
-
- comply with the terms of service of the APIs used by the application.
-
-## Contact
-
-If you have any questions, suggestions, or concerns about VIDCHATAI, please feel free to contact the project maintainer at talha.jaleel255@example.com.
