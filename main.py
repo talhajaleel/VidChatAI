@@ -11,8 +11,8 @@ from langchain.llms import OpenAI
 
 
 def gpt_interaction(video_subs, user_query):
-
-    os.environ["OPENAI_API_KEY"] = 'your-openai-api-key'
+    # uncomment this and add your opanaiapi key
+    # os.environ["OPENAI_API_KEY"] = 'your-openai-api-key'
 
     # read data from the file and put them into a variable called raw_text
     raw_text = video_subs
